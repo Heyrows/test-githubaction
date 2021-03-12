@@ -16,3 +16,5 @@ jobs:
       if: github.event.action == 'opened'
       with:
         project: 'https://github.com/Heyrows/test-githubaction/projects/1'
+        column_name: 'issues2'
+        INITIAL_COLUMN_ID: 13351043
